@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mc on be clever is the new black</title>
+    <link>https://ashitovod.com/tags/mc/</link>
+    <description>Recent content in mc on be clever is the new black</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <lastBuildDate>Tue, 08 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ashitovod.com/tags/mc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Changing midnight commander background color.</title>
+      <link>https://ashitovod.com/post/skin/</link>
+      <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ashitovod.com/post/skin/</guid>
+      <description>I know sounds elementary, this is note more for myself not to forget about because every year I have a new Linux machine in a different country. Because I getting used to midnight commander (mc) as an addition for command line it is nice to have not eating your eyes blue background of mc.
+So this is pretty easy:
+ Open a terminal window, typing (not open mc, otherwise skin update doesn&amp;rsquo;t apply).</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>opensource on be clever is the new black</title>
+    <link>https://ashitovod.com/tags/opensource/</link>
+    <description>Recent content in opensource on be clever is the new black</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <lastBuildDate>Thu, 09 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ashitovod.com/tags/opensource/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Стипендия от Google</title>
+      <link>https://ashitovod.com/post/drafts/google-scolarship/</link>
+      <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ashitovod.com/post/drafts/google-scolarship/</guid>
+      <description>Дела обстоят так: я застряла в США, но более того я не хочу предпринимать попыток уехать потому что я хочу заниматься одним проектом в июне и июле, о котором расскажу в следующих постах. Что бы у меня были средства на существование с такой не легкой ситуации: covid-19 и желание поучаствовать в другом проекте, мне подсказала одна подруга о проекте от Google, который называется Google Summer of Code или сокращенно - GSoC 2020, по году участия.</description>
+    </item>
+    
+  </channel>
+</rss>
