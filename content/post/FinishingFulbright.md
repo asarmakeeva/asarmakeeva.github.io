@@ -1,6 +1,6 @@
 ---
 title: Год в США по программе Фулбрайта
-description: и все еще учу
+description: 
 date: 2021-08-09
 categories:
 - life-style
@@ -13,6 +13,7 @@ tags:
 - scholarship
 - обучение за рубежом
 cover: 
+    image: /post/pic/Fulbright.png
     style: normal
 ---
 
