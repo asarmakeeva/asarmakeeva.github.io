@@ -1,0 +1,43 @@
+name: hugo
+on:
+  push:
+    branches:
+      - develop
+jobs:
+  hugo:
+    runs-on: ubuntu-20.04
+    env:
+      VERSION: '0.88.1'
+      CNAME: ashitovod.com
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
+      - name: Get Hugo
+        run: |
+          wget "https://github.com/gohugoio/hugo/releases/download/v${VERSION}/hugo_${VERSION}_Linux-64bit.tar.gz"
+          tar xvf hugo_${VERSION}_Linux-64bit.tar.gz
+      - name: Setup Git
+        run: |
+          git config --global user.name "${GITHUB_ACTOR}"
+          git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+      - name: Prepare target repository
+        env:
+          # Сгенерировать токен тут с доступом public_repo
+          # https://github.com/settings/tokens/new
+          # Добавить секрет PERSONAL_TOKEN с полученным токеном тут
+          # https://github.com/vporoshok/asarmakeeva.github.io/settings/secrets/actions/new
+          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+        run: |
+          git clone --depth=1 --single-branch --branch master "https://x-access-token:${PERSONAL_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" /tmp/gh-pages
+          rm -rf /tmp/gh-pages/*
+      - name: Build
+        run: ./hugo -d /tmp/gh-pages/
+      - name: Deploy
+        working-directory: /tmp/gh-pages
+        run: |
+          echo "${CNAME}" > CNAME
+          git add -A
+          git commit --allow-empty -am "Publishing Site at ${GITHUB_SHA} on $(date -u)"
+          git push --force
