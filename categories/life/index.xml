@@ -1,16 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>О жизни on be clever is the new black</title>
     <link>https://ashitovod.com/categories/life/</link>
     <description>Recent content in О жизни on be clever is the new black</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ru</language>
-    <lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ashitovod.com/categories/life/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>ru</language><atom:link href="https://ashitovod.com/categories/life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Writing in The Sciences.</title>
       <link>https://ashitovod.com/post/writinginthesciences/</link>

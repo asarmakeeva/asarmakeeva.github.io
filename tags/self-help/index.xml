@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>self-help on be clever is the new black</title>
@@ -6,21 +6,17 @@
     <description>Recent content in self-help on be clever is the new black</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
-    <lastBuildDate>Sun, 05 Apr 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ashitovod.com/tags/self-help/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 05 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://ashitovod.com/tags/self-help/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Дневник своего будущего</title>
       <link>https://ashitovod.com/post/future-journal/</link>
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ashitovod.com/post/future-journal/</guid>
-      <description>Мой вольный перевод статьи холистического психолога доктора Николь ЛеПьера.
+      <description>Мой вольный перевод [статьи] (https://yourholisticpsychologist.com/future-self-journaling/) холистического психолога доктора Николь ЛеПьера.
 Тут должен был быть рассказ о том, как полезно вести дневник, но вообще это, как мне кажется, всем очевидно и известно, что если нет денег на психолога, то самое простое, как можно себе помочь, – это выписывать все чувства на бумагу, не задумываясь о красоте языка.
 Дневник состоит из двух шагов:
-Первый шаг выполняется каждый раз, когда вы хотите прокачать/ввести/улучшить привычку. Если вы не знаете, какое качество вы хотите проработать, то вам надо дать себе время немного подумать, возможно на второе утро идея придет к вам.</description>
+Первый шаг выполняется каждый раз, когда вы хотите прокачать/ввести/улучшить привычку.</description>
     </item>
     
   </channel>
