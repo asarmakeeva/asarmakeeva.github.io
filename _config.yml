@@ -199,9 +199,9 @@ kramdown:
 
 # Collections
 collections:
-  #teaching:
-  #  output: false
-  #  permalink: /:collection/:path/
+  teaching:
+    output: false
+    permalink: /:collection/:path/
   publications:
     output: false
     permalink: /:collection/:path/
@@ -215,7 +215,7 @@ collections:
 
 # Defaults
 defaults:
-  # _posts
+   _posts
   - scope:
       path: ""
       type: posts
